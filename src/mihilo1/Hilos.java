@@ -23,6 +23,12 @@ public class Hilos {
         //dar nombre por hilo
         h3.setName("Hilo3");
         
+        //h1.suspend(); hilo suspendido en espera ser ser reactivado, stop() no sino muere hilo
+        //h1.resume(); //el hilo se reanuda
+        // h1.join();// esperando el inicio siguiente hilo hasta la finalizacion
+                     //anterior
+        //h1.isAlive()//Booleano chequea si el hilo esta  muerto o de parranda
+        
         
         h1.start();
         h2.start();

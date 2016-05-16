@@ -21,6 +21,7 @@ public class MiHilo1 extends Thread{
            int z=i+1;
            System.out.println("Comenzado: "+Thread.currentThread().getName()+","
                    + "i="+z); 
+           
            try{ 
                 //sleep(( int)(Math.random() * 100)); 
                 sleep(1000); //1000 =1s
